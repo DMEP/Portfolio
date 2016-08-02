@@ -1,6 +1,6 @@
 # Assignment Folder Contents
 
-This was an assignment to create a website for a real world client to advertise her business.
+This module involved creating a website for a real world client to present their products and services and give insight into the clinic. It would also have special offers and testimonial that would be changed when necessary and staff pages that illustrated their skills and qualifications.
 
 ## WFABC Website Code
 The html, ccs and image files for the website assignment.
