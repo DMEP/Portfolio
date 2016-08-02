@@ -11,5 +11,5 @@ This folder contains the presentation and word documentation for the Dance Studi
 ## Group Project 2
 This folder contains the presentation and word documentation for the Volunteering Community.
 
-## Report
+## Critique
 A report evaluating the group work and the skills learnt or further worked on.
