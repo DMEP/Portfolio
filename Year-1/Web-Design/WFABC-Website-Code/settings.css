@@ -1,0 +1,153 @@
+	/*body - this is the setting for the body section of the website. This is used to set an area for the information to be. The margin have been set to 
+		auto so that regardless of screen size they will keep to the 900px screen size. The postion is set to static so that if a screen is resized 
+			below 900px then the information will not layer over each other */
+body
+	{
+		width:900px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:210px;
+		position:static;
+	}
+
+	/*table.center - this is a class for the tables of that have been placed into the website. The tabel will be center with a margin either side*/
+table.center
+	{
+		margin-left:auto; 
+		margin-right:auto;
+	}
+
+
+	/*iframebody - A Divtag for the iframe body settings to cancel out the body settings that have already been that were causing layout issues between browsers*/
+#iframebody
+	{
+		width:auto;
+		margin-top:-210px; 
+		position:static;
+	}
+
+	/*header - A Divtag for the header to be easily created with the settings for its size and position*/
+#header
+	{
+		
+		background-image:url("Header.png"); width: 1786px; height: 172px;
+		background-attachment:fixed;
+		left:0%;
+		right:0%;
+		top:0%;
+		background-repeat:no-repeat;
+		position:absolute;
+	}
+
+	/*footertext - A Divtag for the font that will be footer. The font size is set as 15px which shouldn't be too small for people with poor eyesight. 
+		The font style may not be installed on the users computer which will cause the style of the text to be shown as the default. */
+#footertext
+	{
+		font-size: 15px; 
+		font-style: normal;
+		font-family: Nyala;
+		text-align: center;
+	}
+
+	/*footerb -A Divtag for the footer border that will surround the footer text. The Divtag inherits the body settings using the margins*/
+#footerb
+	{
+		
+		border-bottom-style:solid;
+		border-width:1px;
+		border-color:black;
+		height:30px;
+		left:0%;
+		right:0%;
+		bottom:5px;
+		position:static;	
+		
+	}
+
+	/*p - Text styles setting that will be using whenever added into the html file*/
+p
+	{
+		color: black;
+		font-family: nyala;
+		font-style: 15px;
+	} 
+
+	
+							/*These next Divtags refer to the navigation links and the javascript drop down menu*/
+	
+	/*sddm - A Divtag for the Drop Down Menu itself. Z-index refers to the menu appearing in front of the iframe*/
+#sddm
+	{	margin: 0;
+		padding: 0;
+		z-index: 30;
+	}
+
+	/*sddm li - A Divtag for the navigation links appearance and the for the Drop Down Menu */
+#sddm li
+	{	
+		margin: 0;
+		padding: 3px;
+		list-style: none;
+		float: left;
+		font: bold 14px nyala;
+	}
+
+	/*sddm li a - A Divtag for the navigation links that the Drop Down Menu will be attached to. The padding is the space between each each
+		link and the width is 70px so each container for the link is 71px. The default colour for the links when no mouse over is set 
+			to dark olive green*/
+#sddm li a
+	{
+		display: block;
+		margin: 0 0 0 0 0 0;
+		padding: 1px 1px 1px 1px 1px 1px;
+		width: 70px;
+		color: #6B8E23;
+		text-align: center;
+		text-decoration: none;
+	}
+		
+	/*sddm li a:hover - A Divtag for the navigation link hover settings. This will be the colour change that happens behind the link when the 
+		mouse is hovered over it*/
+#sddm li a:hover
+	{	
+		background: #FFFFFF;
+	}
+
+	/*sddm div - A Divtag for the Drop Down Menu container settings. The container is what the other links will be held in. The visibility refers 
+		to the visibility when the mouse is not over the navigation link. The backgound colour and border colour are the same as the 
+			navigation links a dark olive green to match the overall green theme of the website*/
+#sddm div
+	{
+		position: absolute;
+		visibility: hidden;
+		margin: 0;
+		padding: 0;
+		background: #6B8E23;
+		border: 1px solid #6B8E23;
+	}
+	
+	/*sddm div a - A Divtag for the Drop Down Menu settings. These setting are for the drop down links that will be placed in the container. 
+		The background colour is dark olive green colour and the font colour is white. This is when the mouse is over the navigation link 
+			E.G. 'Treatments' but not over the drop down link E.G. 'Anti-Wrinkle Injections'.*/
+#sddm div a
+	{
+		position: relative;
+		display: block;
+		margin: 0;
+		padding: 2px 5px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #6B8E23;
+		color: #FFFFFF;
+		font: 12px nyala;
+	}
+		
+	/*sddm div a:hover A Divtag for the Drop Down Menu container settings. These setting are for the drop down links when mouse over. 
+		The background changes to white and the text is dark olive green. The colours switch back to their original when the mouse is removed*/
+#sddm div a:hover
+	{
+		background:#FFFFFF ;
+		color:#6B8E23; 
+	}

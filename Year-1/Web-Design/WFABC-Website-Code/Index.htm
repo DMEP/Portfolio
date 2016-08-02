@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+	
+<head>
+		<script type="text/javascript">
+		
+		var timeout	= 500;
+		var closetimer	= 0;
+		var ddmenuitem	= 0;
+
+		// open hidden layer
+		function mopen(id)
+		{	
+			// cancel close timer
+			mcancelclosetime();
+
+			// close old layer
+			if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+			// get new layer and show it
+			ddmenuitem = document.getElementById(id);
+			ddmenuitem.style.visibility = 'visible';
+
+		}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+
+
+		</script>
+		<link rel="stylesheet" type="text/css" href="settings.css" />
+		
+		
+</head>
+
+	<body bgcolor="#ffffff">
+	<div id="header">
+		</div>
+
+	
+	<div style="position: absolute; right: 150px; top: 150px;">
+			<ul id="sddm">
+				<li><a href="Home.htm" target="Mainframe" >Home</a></li>
+				<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Treatments</a>
+					<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="Anti-Wrinkle Injections.htm" target="Mainframe">Anti-Wrinkle Injections</a> 
+						<a href="Chemical.html" target="Mainframe">Chemical Skin Peel</a>
+						<a href="Clay.html" target="Mainframe">Clay Wraps</a>
+						<a href="Colonic Hydrotherapy.html" target="Mainframe">Colonic Hydrotherapy</a>
+						<a href="Dermal Fillers.html" target="Mainframe">Dermal Fillers</a>
+						<a href="Dermaroller.html" target="Mainframe">Dermaroller</a>
+						<a href="Eye Treatments.html" target="Mainframe">Eye Treatments</a> 
+						<a href="Facials.html" target="Mainframe">Facials</a>
+						<a href="LA.html" target="Mainframe">LA Peel</a>						
+						<a href="Nails.html" target="Mainframe">Nails</a>
+						<a href="Spray Tanning.html" target="Mainframe">Spray Tanning</a>
+						<a href="Waxing.html" target="Mainframe">Waxing</a>
+					</div>
+				</li>
+				<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Offers</a>
+					<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="Package 1.html" target="Mainframe">Package 1</a>
+						<a href="Package 2.html" target="Mainframe">Package 2</a>
+						<a href="Package 3.html" target="Mainframe">Package 3</a>
+						<a href="LittleMiss.html" target="Mainframe">Little Miss</a>
+					</div>
+				</li>
+				<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">About Us</a>
+					<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+						<a href="Debbie Rainbow.html" target="Mainframe">Debbie Rainbow</a>
+						<a href="Charlotte Stark.html" target="Mainframe">Charlotte Stark</a>
+						<a href="Facilities.html" target="Mainframe">Facilities</a>
+						</div>
+				</li>
+				<li><a href="Partners.htm" target="Mainframe" >Partners</a></li>
+				<li><a href="Contacts.htm" target="Mainframe" >Contact Us</a></li>
+			</ul>
+	<div style="clear:both"></div>
+			</div>
+
+		
+		<div style=" bottom: 300px; width: 900px; height: 550px; border:black solid 1px;">
+			<div align="center">
+		<iframe src="Home.htm" name="Mainframe" frameborder="0" height="550px" width="900px">
+		<p> Your browser does not support iframes.</p>
+		</iframe></div>
+		</div> 
+	
+		
+</body>
+	<div id="footerb">
+	<div id="footertext">
+		<p>&copy; Copyright Daniel Elstob</p>
+	</div>
+	</div>
+</html>
