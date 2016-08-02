@@ -1,0 +1,103 @@
+body {
+    /* fallback */
+    background-color: #CF1D1D;
+    background-repeat: repeat-y;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+    /* IE 10 */
+    background: -ms-linear-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:15px;
+    margin-bottom:50px position:static;
+    text-align: left;
+}
+#wrapper {
+    background: #ffffff;
+    width: 800px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:70px;
+    padding-right:70px;
+    padding-bottom:40px;
+    border-style:solid;
+    border-color:#CF1D1D;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+#header {
+    width:800px;
+    height:225;
+    border-style:solid;
+    border-color:#CF1D1D;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+#banner {
+    width: 600px;
+    height: 200px;
+    padding-left:75px;
+    padding-right:100px;
+}
+#navigation {
+    width:600;
+    float:bottom;
+}
+#navigation2 {
+	width:400;
+	float:bottom;
+}
+#content {
+    width:700px;
+    height:200px;
+    padding-left:70px;
+    float:center;
+}
+#footer {
+    width:800px;
+    height:150px;
+    padding-right:200px;
+    float:bottom;
+}
+p {
+    color: black;
+    font-family: sans-serif, verdana, Arial, Helvetica;
+    font-size: 16px;
+    font-style:italic;
+    font-weight:bold;
+}
+.footer {
+    width:700px;
+    height:100px;
+    color: black;
+    font-family: sans-serif, verdana, Arial, Helvetica;
+    font-size: 12px;
+    font-style:italic;
+    font-weight:bold;
+}
+.center {
+    text-align:center;
+    font-size:12px;
+}
+.red {
+    color:red;
+}
+.blue {
+    color:blue;
+}
+a {
+    padding:3px;
+}
+img {
+    padding:30px
+}
+hr {
+    color:#ffff66;
+}
