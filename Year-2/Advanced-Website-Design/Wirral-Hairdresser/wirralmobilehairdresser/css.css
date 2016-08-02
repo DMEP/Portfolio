@@ -1,0 +1,162 @@
+/* body settings */
+body {
+background-image:url('images/Background.jpg');
+background-position:left, fixed;
+background-repeat:no-repeat;
+background-color:#F4F4F4;
+float:left;
+width:100%;
+height:100%;
+
+}
+		/* Left side of screen div settings */
+/* menu div settings that contains navigation and logo */
+#menu{
+height:1000px;
+width:550px;
+float:left;
+
+}
+/* navigation div settings that contains the links to the pages */
+#navigation{
+height:500px;
+width:200px;
+right:0%;
+top:200px;
+float:right;
+text-align:center;
+}
+
+		/* Right side of screen div settings */
+/* main content div. All div and information goes into here */
+#content{
+height:900px;
+width:700px;
+float:left;
+}
+/* header div settings. specific header to the home page due to long header */
+#header{
+background:#B7004B;
+padding-left:1px;
+padding-right:1px;
+padding-bottom:1px;
+width:500px; 
+height:30px;
+}
+/* subheader div settings. specific subheader to the homepage */
+#subheader{
+background:#B7004B;
+padding-left:1px;
+padding-right:1px;
+padding-bottom:1px;
+width:250px; 
+height:30px;
+text-align:center;
+}
+/* header2 div settings. specific header to the all other pages other than home page */
+#header2{
+background:#B7004B;
+padding-left:1px;
+padding-right:1px;
+padding-bottom:1px;
+width:250px; 
+height:30px;
+text-align:center;
+}
+/* subheader2 div settings. specific header to the all other pages other than home page */
+#subheader2{
+background:#B7004B;
+padding-left:1px;
+padding-right:1px;
+padding-bottom:1px;
+width:300px; 
+height:30px;
+text-align:center;
+}
+/* break1 div settings. used to break up information on all website pages */
+#break1{
+background:#000000;
+border-width:15px;
+border-style:solid;
+width: 625px;
+float:center;
+border-color:#000000;
+}
+/* break2 div settings. used to break up information on all website pages */
+#break2{
+background:#B7004B;
+border-width:15px;
+border-style:solid;
+width: 625px;
+float:center;
+border-color:#B7004B;
+}
+/* text div settings. used to keep information together */
+#text{
+width: 600px;
+height: 500px;
+padding-left:30px;
+padding-right:30px;
+padding-top:30px;
+text-align:center;
+}
+/* p div settings. used to control the settings for paragraphs */
+p {
+color: black;
+font-family: sans-serif, verdana, Arial, Helvetica;
+font-size: 16px;
+font-style:italic;
+font-weight:bold;
+float:center;
+}
+/* remove bullets frm list items */
+ul{
+list-style:none;
+}
+/* img div settings. used to add default padding to the images */
+img {
+padding:30px
+}
+/* center class settings. used to center specific information on website pages */
+.center{
+float:center;
+}
+/* pink class settings. used to change the color specific information on website pages to pink */
+.pink{
+color:#B7004B;
+}
+/* normal class settings. used to normalise specific information on website pages */
+.normal{
+vertical-align: text-bottom;
+}
+/* white class settings. used to change the color specific information on website pages to white */
+.white{
+color:white;
+}
+/* a class settings. used to change the navigation links appearance*/
+.a {
+text-align:center;
+color:#ffffff;
+font-size:24px; 
+padding-left:10px;
+padding-right:10px;
+padding-bottom:10px;
+text-decoration: none;
+}
+/* tabs class settings. used to change the navigation links appearance*/
+.tabs{
+background:#B7004B;
+padding-left:20px;
+padding-right:20px;
+padding-top:10px;
+padding-bottom:10px;
+border-color:#B7004B;
+border-left:solid;
+border-top:solid;
+border-bottom:solid;
+}
+		/* Default link settings */
+a:link {color:#ffffff;}      /* unvisited link */
+a:visited {color:#ffffff;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#000000;}  /* selected link */
