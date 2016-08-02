@@ -6,7 +6,7 @@ This module involved creating a website for a real world client to present their
 The html, ccs and image files for the website assignment.
 
 ## Test Plan
-A word document shoing how the website was tested at that point in time.
+A word document showing how the website was tested at that point in time.
 
 ## Assignment One; Appendix 1a, 1b, 1c
 Word documents created following the meetings with the client documenting her thoughts and desired changes through each meeting.
