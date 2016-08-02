@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="212" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Tileset1" tilewidth="16" tileheight="16">
+  <image source="Tileset1.png" width="128" height="128"/>
+ </tileset>
+ <layer name="Background" width="212" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2DkSgkAQhWEu4ZK4BG6BW+B2/5P5DAygQMYSmO72/6peRjDQTTNDUZSNlLEyUaYFgF/MlLmyUJZ5l1KS6z1nvuBtpayVjbJVdg3XeeiZXO+51fmSasjapvabV3vloByVk3JuuC5nz0SvQZu+73/I2qb2m1cX5arclLvyyLucWtFr0CbS/Xvoty5Y3s/9Sw2aRLx/y/3WBe9ngC5Yr7H19X1jyH6L9Nw8qdbY2jmNmZemet7kueUR6ZzyzzzWMeI/t4jnlE8i1vDFYx37mAHsc4flcY5H1ccMiLjPtfwNqKshMw2WefsGRJxpiMPjXh4AAAAAAAAAUO8JzHwhdQ==
+  </data>
+ </layer>
+ <layer name="Foreground" width="212" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt07EJACAMRNFYOoL7L2qjExiIkPfg99dcBAAAAAAAAAAAAAAAAEBf6wS88ye6GIX9sEHKbBZ2VW6QMtvp/AiZ
+  </data>
+ </layer>
+ <layer name="Spike" width="212" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzEERAAAIA6BVsX9JG+zvCQFIAAAAAAAAAAAAAAAAAAC6OfYCAHyztmYAQw==
+  </data>
+ </layer>
+</map>
