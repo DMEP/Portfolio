@@ -1,0 +1,66 @@
+body {
+  /* fallback */
+  background-color: #CF1D1D;
+  background-repeat: repeat-y;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+  /* IE 10 */
+  background: -ms-linear-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, #CF1D1D, #ffffff, #CF1D1D);
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  margin-bottom:50px position:static;
+  text-align: left;
+}
+#wrapper {
+  /* Container for all content */
+  background: #ffffff;
+  width: 800px;
+  height: 1080px;
+  margin-left: auto;
+  margin-right:auto;
+  padding-left:70px;
+  padding-right:70px;
+  padding-bottom:40px;
+  border-style:solid;
+  border-color:#CF1D1D;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+p {
+  /* Attributes for paragraphs */
+  color: black;
+  font-family: sans-serif, verdana, Arial, Helvetica;
+  font-size: 16px;
+  font-style:italic;
+  font-weight:bold;
+}
+.footer {
+  /* Class attributes for the footer text */
+  width:700px;
+  height:100px;
+  color: black;
+  font-family: sans-serif, verdana, Arial, Helvetica;
+  font-size: 12px;
+  font-style:italic;
+  font-weight:bold;
+}
+.center {
+  /* Class attributes for centering text */
+  text-align:center;
+  font-size:12px;
+}
+.red {
+  /* Class attributes for red text */
+  color:red;
+}
+.blue {
+  /* Class attributes for blue text */
+  color:blue;
+}
