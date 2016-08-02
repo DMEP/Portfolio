@@ -1,10 +1,4 @@
-# Assignment Folder Contents
-
-## Ming Code
-The two Java files for the assignment.
-
-## Test Plan
-A word document showing how the program was tested at that point in time.
-
-## User Guide
-A word document for all the features of the program.
+# Contents
+ 
+## Volunteer Community Solution
+A word document containing all the requirements, diagrams, and interface designs for the website and database.
