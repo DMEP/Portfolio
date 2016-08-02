@@ -7,11 +7,11 @@ If neither player manages to mark their tiles then the game ends in a draw.
 ## Naughts and Crosses
 All the Java files for the assignment projects.
 
-## Critical Appraisal
-A word document discussing reasons behind the chosen project, IDE, language and technique of the program.
-
 ## Class Diagram
 A class diagram for the program.
+
+## Critical Appraisal
+A word document discussing reasons behind the chosen project, IDE, language and technique of the program.
 
 ## Test Plan
 A word document showing how the program was tested at that point in time.
