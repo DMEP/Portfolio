@@ -2,7 +2,7 @@
 This module involved researching into the current advancements of computer science within certain fields such as Artificial Neural Networks.
 
 ## BCI and FNN Presentation
-A presentation of the two paper that have been written.
+A presentation on the findings of the two research papers, Brain COmputer Interfaces and Fuzzy Neural Networks.
 
 ## Brain Computer Interface
 One area chosen for the assignment was Brain Computer Interfaces (BCI) with focus on nueroprosthtics and brain to brain (B2B) applications.
