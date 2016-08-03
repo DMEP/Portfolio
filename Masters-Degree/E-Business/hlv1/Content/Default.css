@@ -1,0 +1,27 @@
+/* Carousel settings */
+.slide-image {
+    width: 100%;
+}
+.carousel-holder {
+    margin-bottom: 30px;
+}
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+/* Product 1,2,3 settings*/
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+.caption h4 {
+    white-space: nowrap;
+}
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}

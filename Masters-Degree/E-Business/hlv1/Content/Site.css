@@ -1,0 +1,28 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 100px;
+    padding-bottom:25px;
+}
+/* Wrapping element of categories */
+.cat-List{
+    width:25%;
+    padding-top:20px;
+    padding-left: 50px;
+    height: 450px;
+    float:left;
+}
+/* Wrapping element site*/
+.main-Area {
+    width:50%;
+    padding-left:0px;
+    padding-bottom:20px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
