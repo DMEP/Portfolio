@@ -17,10 +17,10 @@ A class diagram of the program.
 An evaluation of the decision made when creating the program.
 
 ## Design Specification
-A basic design specification and a deadline for deliverable
+A basic design specification and a deadline for deliverable.
 
 ## Functional Specification
-A functional specification that discu areas of constraints, expant
+A functional specification that discus areas of constraints.
 
 ## Test Plan
 A word document showing how the program was tested at that point in time.
