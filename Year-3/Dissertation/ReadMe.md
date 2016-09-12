@@ -8,7 +8,7 @@ variable of the program itself to further explore the impact they have on learni
 The Java files for the dissertation project.
 
 ## Applying Reinforcement Learning to a maze using QLearing
-The dissertaion paper in full.
+The dissertation paper in full.
 
 ## User Guide
 A word document for all the features of the program.
